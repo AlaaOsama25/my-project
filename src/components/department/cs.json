@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_department_cs",
+  "info": {
+    "displayName": "CS",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

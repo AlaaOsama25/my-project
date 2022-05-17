@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "libraries",
+  "info": {
+    "singularName": "library",
+    "pluralName": "libraries",
+    "displayName": "Library",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
+    },
+    "book_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::book-type.book-type",
+      "inversedBy": "libraries"
+    }
+  }
+}

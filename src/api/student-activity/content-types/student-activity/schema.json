@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_activities",
+  "info": {
+    "singularName": "student-activity",
+    "pluralName": "student-activities",
+    "displayName": "student activity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
+    },
+    "Total": {
+      "type": "biginteger"
+    },
+    "Number": {
+      "type": "biginteger"
+    },
+    "Percentage": {
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "graduated_numbers",
+  "info": {
+    "singularName": "graduated-number",
+    "pluralName": "graduated-numbers",
+    "displayName": "Graduated Number",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "CS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.cs",
+      "required": true
+    },
+    "IS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.is",
+      "required": true
+    }
+  }
+}

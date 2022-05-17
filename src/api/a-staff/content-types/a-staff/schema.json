@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "a_staffs",
+  "info": {
+    "singularName": "a-staff",
+    "pluralName": "a-staffs",
+    "displayName": "A staff"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Job": {
+      "type": "string",
+      "required": true
+    },
+    "research": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::research.research",
+      "mappedBy": "a_staff"
+    }
+  }
+}

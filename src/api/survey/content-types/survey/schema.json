@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surveys",
+  "info": {
+    "singularName": "survey",
+    "pluralName": "surveys",
+    "displayName": "Survey"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sType": {
+      "type": "string",
+      "required": true
+    },
+    "Field": {
+      "type": "string",
+      "required": true
+    },
+    "survey_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::survey-item.survey-item",
+      "mappedBy": "SID"
+    }
+  }
+}

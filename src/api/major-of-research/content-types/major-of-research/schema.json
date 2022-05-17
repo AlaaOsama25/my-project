@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "major_of_researches",
+  "info": {
+    "singularName": "major-of-research",
+    "pluralName": "major-of-researches",
+    "displayName": "Major of research"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ResearchName": {
+      "type": "string",
+      "required": true
+    },
+    "Field": {
+      "type": "string",
+      "required": true
+    },
+    "research": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::research.research",
+      "mappedBy": "major_of_research"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_department_are",
+  "info": {
+    "displayName": "IS",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

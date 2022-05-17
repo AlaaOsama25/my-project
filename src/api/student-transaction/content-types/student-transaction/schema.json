@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_transactions",
+  "info": {
+    "singularName": "student-transaction",
+    "pluralName": "student-transactions",
+    "displayName": "Student transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Total": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Percentage": {
+      "type": "float",
+      "required": true
+    },
+    "survey_items": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::survey-item.survey-item",
+      "inversedBy": "student_transactions"
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year",
+      "mappedBy": "student_transaction"
+    }
+  }
+}

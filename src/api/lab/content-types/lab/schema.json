@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "labs",
+  "info": {
+    "singularName": "lab",
+    "pluralName": "labs",
+    "displayName": "Lab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "LID": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "PCnumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "MID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::m-staff.m-staff"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_types",
+  "info": {
+    "singularName": "book-type",
+    "pluralName": "book-types",
+    "displayName": "Book Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "libraries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::library.library",
+      "mappedBy": "book_type"
+    }
+  }
+}

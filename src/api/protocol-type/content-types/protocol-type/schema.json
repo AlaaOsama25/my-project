@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "protocol_types",
+  "info": {
+    "singularName": "protocol-type",
+    "pluralName": "protocol-types",
+    "displayName": "Protocol Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pName": {
+      "type": "string"
+    }
+  }
+}

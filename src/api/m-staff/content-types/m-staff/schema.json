@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "m_staffs",
+  "info": {
+    "singularName": "m-staff",
+    "pluralName": "m-staffs",
+    "displayName": "m staff"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Job": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
