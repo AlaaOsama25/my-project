@@ -1,13 +1,11 @@
 const qs = require('qs');
-const query = qs.stringify({
+const query = qs.stringify( async, {
   populate: {
     graduated_number: {
       populate: '*',
       //populate: ['IS'],
     },
-    research: {
-      populate: '*',
-    }
+    
   } 
 }, {
   encodeValuesOnly: true,
