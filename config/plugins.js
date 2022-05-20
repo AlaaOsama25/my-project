@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
           expiresIn: '7d',
           
         },
-        jwtsecret: '9mlygbGZbaiTCH4BjsgmMw=='
+        jwtSecret: '9mlygbGZbaiTCH4BjsgmMw=='
       },
     },
     // ...
