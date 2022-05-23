@@ -27,6 +27,16 @@
       "repeatable": true,
       "component": "department.is",
       "required": true
+    },
+    "AI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.ai"
+    },
+    "NI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.ni"
     }
   }
 }

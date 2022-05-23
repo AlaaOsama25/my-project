@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_department_ais",
+  "info": {
+    "displayName": "AI",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger"
+    }
+  }
+}

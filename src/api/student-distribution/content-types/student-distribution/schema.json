@@ -30,6 +30,31 @@
       "relation": "manyToOne",
       "target": "api::academic-year.academic-year",
       "inversedBy": "student_distributions"
+    },
+    "CS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.cs"
+    },
+    "IS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.is"
+    },
+    "AI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.ai"
+    },
+    "NI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.ni"
+    },
+    "General": {
+      "type": "component",
+      "repeatable": true,
+      "component": "department.general"
     }
   }
 }

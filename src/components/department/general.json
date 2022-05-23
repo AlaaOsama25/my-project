@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_department_generals",
+  "info": {
+    "displayName": "General",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "biginteger"
+    }
+  }
+}
