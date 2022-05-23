@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Year": {
-      "type": "integer",
-      "required": true,
-      "unique": true
-    },
     "graduated_number": {
       "type": "relation",
       "relation": "oneToOne",
@@ -39,6 +34,11 @@
       "relation": "oneToOne",
       "target": "api::student-transaction.student-transaction",
       "inversedBy": "academic_year"
+    },
+    "Year": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
