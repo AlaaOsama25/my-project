@@ -4,18 +4,15 @@
   "info": {
     "singularName": "lab",
     "pluralName": "labs",
-    "displayName": "Lab"
+    "displayName": "Lab",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string",
-      "required": true
-    },
-    "LID": {
+    "LabNumber": {
       "type": "biginteger",
       "required": true,
       "unique": true
