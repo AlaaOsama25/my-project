@@ -12,17 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string",
-      "required": true
-    },
     "Impact": {
-      "type": "richtext",
+      "type": "text",
       "required": false
+    },
+    "RName": {
+      "type": "richtext",
+      "required": true
     },
     "JournalName": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "a_staff": {
       "type": "relation",
