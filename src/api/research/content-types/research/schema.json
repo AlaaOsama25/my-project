@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Impact": {
-      "type": "text",
-      "required": false
-    },
     "RName": {
-      "type": "richtext",
+      "type": "text",
       "required": true
+    },
+    "Impact": {
+      "type": "richtext",
+      "required": false
     },
     "JournalName": {
       "type": "string",
