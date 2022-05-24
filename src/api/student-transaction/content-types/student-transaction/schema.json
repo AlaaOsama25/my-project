@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Total": {
-      "type": "biginteger",
-      "required": true
-    },
     "Percentage": {
       "type": "float",
       "required": true
