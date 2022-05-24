@@ -33,27 +33,27 @@
     },
     "CS": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.cs"
     },
     "IS": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.is"
     },
     "AI": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.ai"
     },
     "NI": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.ni"
     },
     "General": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.general"
     }
   }
