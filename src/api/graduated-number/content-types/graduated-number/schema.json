@@ -12,30 +12,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Number": {
-      "type": "biginteger",
-      "required": true
-    },
     "CS": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.cs",
       "required": true
     },
     "IS": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.is",
       "required": true
     },
     "AI": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.ai"
     },
     "NI": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "department.ni"
     },
     "academic_year": {

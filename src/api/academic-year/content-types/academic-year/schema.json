@@ -16,7 +16,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::graduated-number.graduated-number",
-      "inversedBy": "academic_year"
+      "mappedBy": "academic_year"
     },
     "research": {
       "type": "relation",
