@@ -16,14 +16,6 @@
       "type": "text",
       "required": true
     },
-    "EName": {
-      "type": "text",
-      "required": true
-    },
-    "sDate": {
-      "type": "date",
-      "required": true
-    },
     "country": {
       "type": "relation",
       "relation": "oneToOne",
