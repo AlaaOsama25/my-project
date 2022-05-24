@@ -4,7 +4,8 @@
   "info": {
     "singularName": "survey",
     "pluralName": "surveys",
-    "displayName": "Survey"
+    "displayName": "Survey",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,10 +13,6 @@
   "pluginOptions": {},
   "attributes": {
     "sType": {
-      "type": "string",
-      "required": true
-    },
-    "Field": {
       "type": "string",
       "required": true
     },
