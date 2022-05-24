@@ -4,7 +4,8 @@
   "info": {
     "singularName": "student-transaction",
     "pluralName": "student-transactions",
-    "displayName": "Student transaction"
+    "displayName": "Student transaction",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,11 @@
       "relation": "oneToOne",
       "target": "api::academic-year.academic-year",
       "mappedBy": "student_transaction"
+    },
+    "survey_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::survey-item.survey-item"
     }
   }
 }
