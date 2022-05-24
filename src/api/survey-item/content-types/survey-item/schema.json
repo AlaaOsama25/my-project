@@ -12,21 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "SID": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::survey.survey",
-      "inversedBy": "survey_items"
-    },
     "Description": {
       "type": "text",
       "required": true
     },
-    "student_transactions": {
+    "surveys": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::student-transaction.student-transaction",
-      "inversedBy": "survey_items"
+      "relation": "oneToMany",
+      "target": "api::survey.survey"
     }
   }
 }

@@ -19,12 +19,6 @@
       "type": "float",
       "required": true
     },
-    "survey_items": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::survey-item.survey-item",
-      "inversedBy": "student_transactions"
-    },
     "academic_year": {
       "type": "relation",
       "relation": "oneToOne",

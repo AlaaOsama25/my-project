@@ -15,12 +15,6 @@
     "sType": {
       "type": "string",
       "required": true
-    },
-    "survey_items": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::survey-item.survey-item",
-      "mappedBy": "SID"
     }
   }
 }
