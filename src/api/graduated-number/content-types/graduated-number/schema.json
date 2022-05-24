@@ -37,6 +37,12 @@
       "type": "component",
       "repeatable": true,
       "component": "department.ni"
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year",
+      "inversedBy": "graduated_number"
     }
   }
 }
