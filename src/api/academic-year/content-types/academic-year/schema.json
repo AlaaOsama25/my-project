@@ -30,16 +30,16 @@
       "target": "api::student-distribution.student-distribution",
       "mappedBy": "year"
     },
-    "student_transaction": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::student-transaction.student-transaction",
-      "inversedBy": "academic_year"
-    },
     "Year": {
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "student_transactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::student-transaction.student-transaction",
+      "mappedBy": "academic_year"
     }
   }
 }

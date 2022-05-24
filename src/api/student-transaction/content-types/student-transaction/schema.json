@@ -18,9 +18,9 @@
     },
     "academic_year": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::academic-year.academic-year",
-      "mappedBy": "student_transaction"
+      "inversedBy": "student_transactions"
     },
     "survey_item": {
       "type": "relation",
